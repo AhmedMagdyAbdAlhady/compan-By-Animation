@@ -1,0 +1,227 @@
+/*Start Global*/
+body{
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+    position: relative;
+}
+
+
+
+
+
+/*Start Navegation Bar*/
+.nav .navbar-brand{
+    letter-spacing: 4px;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.nav .nav-link{
+    color: #fff !important;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    font-family: Montserrat, sans-serif;
+}
+
+.nav .nav-link:hover {
+    background-color: #FFF;
+    color: #f4511e!important;
+}
+.nav .navbar-nav .active{
+    background-color: #FFF;
+    color: #f4511e!important;
+}
+/*End Navegation Bar*/
+/*Start Header*/
+header .jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+}
+header .jumbotron h1{
+    font-size: 63px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+header .jumbotron p{
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+
+header .jumbotron .form-control{
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+
+}
+header .jumbotron .btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+/*End Header*/
+/*Start ABOUT COMPANY PAGE*/
+.about{
+    padding: 60px 50px;
+}
+.about i{
+    font-size: 11rem;
+}
+.about .btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+
+}
+.btn-default:focus {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #8c8c8c;
+    box-shadow: 0 0 0 0.08rem rgba(0,0,0,.75);
+}
+.about .btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.about span{
+    font-weight: bold
+}
+/*End ABOUT COMPANY PAGE*/
+/*Start SERVICES*/
+.services i{
+    font-size: 3rem;
+}
+/*End SERVICES*/
+/*Start PORTFOLIO*/
+.portfolio , .price , .contact{
+    padding: 60px 50px;
+}
+.portfolio .card-title{
+    font-weight:bold;
+}
+.portfolio .carousel-indicators li {
+width: 10px;
+height:10px;
+border-radius:50%;
+border:1px solid #f4511e; 
+background-color: wheat
+
+}
+.portfolio .carousel-indicators .active{
+    background-color: #f4511e;
+}
+.portfolio span i{
+    font-size:2.5rem;
+}
+/*End PORTFOLIO*/
+/*Start price*/
+.price .panel{
+    border: 1px solid #f4511e;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.price .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+}
+.price .panel .panel-body {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.price .panel p{
+    margin: 0 0 10px;
+}
+.price .panel p  strong {
+    font-weight: 700;
+}
+.price .panel-footer{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.price .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+}
+.price .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #f4511e;
+    color: #fff;
+}
+    /*End price*/
+/*Start contact*/
+.contact i{
+    color: #818181;
+}
+.contact .f-s1{
+    font-size: .85em;
+}
+.contact .btn{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    margin-right:auto !important;
+}
+.contact .btn:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+/*End contact*/
+
+
+
+
+
+
+
+
+
+/*Start My Forme*/
+.bg-orange{
+    background-color: #f4511e;
+    color: white;
+}
+h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-family: inherit;
+}
+h4{
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+    font-family: inherit
+}
+i{
+    color: #f4511e;
+}
